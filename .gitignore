@@ -2,3 +2,4 @@
 .pyc
 __pycache__/
 storage/
+datasets/twitter/training.1600000.processed.noemoticon.csv

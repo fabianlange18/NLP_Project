@@ -12,6 +12,10 @@ def extract_class_imdb(filename: str):
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
+from gensim.models import Word2Vec
+# use Word2Vec instead of 
+# include stemming
+
 def wordArray(text):
     documentWords = []
     stopWords = set(stopwords.words('english'))
